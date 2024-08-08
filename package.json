@@ -1,0 +1,36 @@
+{
+  "name": "nonogram",
+  "version": "1.0.0",
+  "description": "Edit, play and solve nonograms",
+  "type": "module",
+  "main": "dist/nonogram.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavel-voronin/nonogram.git"
+  },
+  "keywords": [
+    "nonogram",
+    "puzzle"
+  ],
+  "author": "Pavel Voronin <pavel.a.voronin@gmail.com>",
+  "contributors": [
+    "Zhou Qi <i@handsomeone.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavel-voronin/nonogram/issues"
+  },
+  "homepage": "https://github.com/pavel-voronin/nonogram",
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "typescript": "^5.5.4"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ]
+}
